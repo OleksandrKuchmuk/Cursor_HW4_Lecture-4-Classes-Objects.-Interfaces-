@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -49,9 +51,6 @@ public class Main {
         shape[3] = squarePyramid;
         shape[4] = cuboid;
         shape[5] = sphere;
-
-        for (int i = 0; i < shape.length; i++) {
-            System.out.println(shape[i]);
-        }
+        System.out.println(Arrays.toString(shape));
     }
 }
